@@ -8,7 +8,7 @@
         "staging": {
             "profile": "e2-demo-emea",
             "workspace_dir": "/Shared/apurkayastha/daiwt_mlops/staging/dbx/daiwt_mlops_staging",
-            "artifact_location": "ddbfs:/Shared/apurkayastha/daiwt_mlops/staging/dbx/projects/daiwt_mlops_dbx_staging"
+            "artifact_location": "dbfs:/Shared/apurkayastha/daiwt_mlops/staging/dbx/projects/daiwt_mlops_dbx_staging"
         },
         "prod": {
             "profile": "e2-demo-emea",

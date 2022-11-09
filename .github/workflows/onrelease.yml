@@ -34,13 +34,13 @@ jobs:
         run: |
           pip install -r unit-requirements.txt
       
-      - name: Deploy multi-task workflow daiwt-PROD-telco-churn-train-deploy-inference-workflow [prod environment]
+      - name: Deploy multi-task workflow daiwtAP-PROD-telco-churn-train-deploy-inference-workflow [prod environment]
         run: |
-          dbx deploy -e prod --deployment-file conf/deployment.yml daiwt-PROD-telco-churn-train-deploy-inference-workflow
+          dbx deploy -e prod --deployment-file conf/deployment.yml daiwtAP-PROD-telco-churn-train-deploy-inference-workflow
         
       - name: Launch model training, deployment and inference workflow [prod environment]
         run: |
-          dbx launch -e prod daiwt-PROD-telco-churn-train-deploy-inference-workflow
+          dbx launch -e prod daiwtAP-PROD-telco-churn-train-deploy-inference-workflow
 
       # - name: Deploy PROD-telco-churn-model-train job [prod environment]
       #   run: |
